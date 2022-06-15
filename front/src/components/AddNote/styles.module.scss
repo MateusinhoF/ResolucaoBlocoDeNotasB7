@@ -1,0 +1,63 @@
+.addNote{
+    height: 100vh;
+    width: 100%;
+    background: #17171a;
+    padding: 20px;
+    align-self: center;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    position: relative;
+    color: #ddd;
+    
+
+}
+
+.formNote{
+
+    display: flex;
+    flex-direction: column;
+    align-self: stretch;
+    margin-top: 48px;
+
+    label{
+        margin-top: 5px;
+    }
+
+    .title{
+        font-size: 32px;
+        line-height: 36px;
+        background: #303030;
+        border: none;
+        color: #ddd;
+    }
+    
+    .color{
+        margin: 10px;
+        width: auto;
+        height: 40px;
+        
+    }
+    
+    .text{
+        font-size: 32px;
+        line-height: 400px;
+        background: #303030;
+        border: none;
+        height: 300px;
+        color: #ddd;
+    }
+    
+    .save{
+        background: #505050;
+        margin-top: 10px;
+        border: none;
+        height: 25px;
+        cursor: pointer;
+        color: #ddd;
+    }
+
+}
+
